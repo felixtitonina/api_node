@@ -1,7 +1,7 @@
 const multer = require('multer');
 const path = require('path');
 
-module.exports = { //exeporta um objeto com varias informações
+module.exports = { //exporta um objeto com varias informações
     storage: multer.diskStorage({
         destination: path.resolve(__dirname, '..','..','uploads'),
 
